@@ -1,0 +1,22 @@
+.about{
+  background-color:#1abc9c;
+  color: white;
+padding: 180px;
+
+
+}
+.iconss{
+  border: 2px solid white;
+  width: 85px;
+
+}
+
+.lin{
+  font-weight: bolder!important;
+  font-size: 2.5rem!important;
+}
+.about2{
+  font-size: 2.5rem!important;
+  text-transform: uppercase!important;
+  font-weight: bolder!important;
+}

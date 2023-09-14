@@ -1,0 +1,59 @@
+
+.active
+{
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+.nav-link{
+  color: white;
+  text-transform: uppercase!important;
+
+}
+
+.navbar{
+  padding: 25px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .active
+{
+    background-color: #1abc9c;
+    border-radius: 5px;
+    width: fit-content;
+}
+}
+
+@media only screen and (min-width: 700px) {
+  .active
+{
+    background-color: #1abc9c;
+    border-radius: 5px;
+    width: fit-content;
+}
+}
+@media only screen and (min-width: 900px) {
+  .active
+{
+    background-color: #1abc9c;
+    border-radius: 5px;
+    width: fit-content;
+}
+}
+@media only screen and (min-width: 1200px) {
+  .active
+{
+    background-color: #1abc9c;
+    border-radius: 5px;
+    width: fit-content;
+}
+}
+@media only screen and (max-width: 1400px) {
+  .active
+{
+    background-color: #1abc9c;
+    border-radius: 5px;
+    width: fit-content;
+}
+}
