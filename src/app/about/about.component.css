@@ -1,9 +1,11 @@
 .about{
   background-color:#1abc9c;
   color: white;
-padding: 180px;
-
-
+  /* height: 100%; */
+/* padding: 180px; */
+display: flex;
+align-items: center;
+min-height: 100vh;
 }
 .iconss{
   border: 2px solid white;
@@ -20,3 +22,5 @@ padding: 180px;
   text-transform: uppercase!important;
   font-weight: bolder!important;
 }
+
+

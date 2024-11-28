@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-  isHovered = false;
+isHovered = false;
   Hovered = false
   hoverr = false
   email=false
@@ -55,4 +55,11 @@ useremail():void{
 
 }
 
+// flag:boolean=false;
+//  clickOnInput(){
+
+// let flag:boolean=true;
+
+
+//  }
 }

@@ -1,14 +1,15 @@
 .container-fluid {
-    min-height: 100vh; /* Set a minimum height to take up the full viewport height */
+    /* min-height: 100vh; Set a minimum height to take up the full viewport height */
     display: flex;
     flex-direction: column;
 }
 .home{
-  padding: 30px;
+
+  height: 100vh;
 }
 
 .min-vh-100 {
-    flex: 1; /* Allow the container to grow to fill available space */
+    /* flex: 1; Allow the container to grow to fill available space */
 }
 .title
 {
@@ -21,3 +22,6 @@
 .start{
   font-size: 2.5rem!important;
 }
+
+
+

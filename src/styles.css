@@ -5,6 +5,7 @@
 .back-col
 {
     background-color: #1abc9c;
+
 }
 .line-wrapper {
     position: relative;
@@ -28,3 +29,10 @@
 .line-wrapper::after {
     right: 30px;
 }
+
+/* router-outlet + * {
+  display:block ;
+  min-height: 100vh;
+  padding-top: 100px;
+
+} */

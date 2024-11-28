@@ -6,6 +6,15 @@ declare let $:any
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
+
+  imgs:string[]=[
+  "assets/images/poert1.png",
+  "assets/images/port2.png",
+  "assets/images/port3.png",
+  "assets/images/poert1.png",
+  "assets/images/port2.png",
+  "assets/images/port3.png",
+]
   src:string=""
   getDet(event: Event): void {
     const imgElement = (event.target as HTMLElement).closest('.item')?.querySelector('img');
@@ -20,4 +29,23 @@ export class PortfolioComponent {
     $(".boxContainer").addClass("d-none");
     this.src = '';
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

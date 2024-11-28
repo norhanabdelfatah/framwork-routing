@@ -8,10 +8,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {path:"",redirectTo: "home",pathMatch:'full'},
-  {path:"home",component:HomeComponent},
-  {path:"about",component:AboutComponent},
-  {path:"portfolio",component:PortfolioComponent},
-  {path:"contact",component:ContactComponent},
+  {path:"home",component:HomeComponent,title:"home"},
+  {path:"about",component:AboutComponent,title:"about"},
+  {path:"portfolio",component:PortfolioComponent,title:"portfolio"},
+  {path:"contact",component:ContactComponent,title:"contact"},
   {path:"**",component:NotFoundComponent},
 
 
